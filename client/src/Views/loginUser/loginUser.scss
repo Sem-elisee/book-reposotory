@@ -1,0 +1,82 @@
+:root{
+    --first-color:#1A73E8;
+    --input-color:#80868B;
+    --boder-color:#DADCE0;
+    // --bouton-color:;
+}
+
+body{
+
+    //     //background-color
+     
+
+    //  background-color: rgba(54, 162, 235, 0.2);
+    //  background-color: rgba(255, 206, 86, 0.2);
+    //     background-color: rgba(75, 192, 192, 0.2);
+    //     background-color: rgba(153, 102, 255, 0.2);
+    //     background-color: rgba(255, 159, 64, 0.2);
+
+    //     //border
+
+    //     background-color:rgba(255, 99, 132, 1);
+    //     background-color:rgba(54, 162, 235, 1);
+    //     background-color:rgba(255, 206, 86, 1);
+    //     background-color:rgba(75, 192, 192, 1);
+    //     background-color:rgba(153, 102, 255, 1);
+    //     background-color:rgba(255, 159, 64, 1);
+}
+
+.login{
+    // background-image: url('../../assets/Image/bg-dot.png');
+
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+        .form{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            padding: 2rem 5rem;
+            border-radius: 1rem;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            .oeil{
+                position: relative;
+                left: 15rem;
+                top: -2.7rem;
+            }
+            .form-input{    
+                margin: 8px;
+                width: 110%;
+                font-size: var(--normal-font-size);
+                border: 1.3px solid var(--boder-color);
+                border-radius: 1rem;
+                outline: none;
+                padding: 1rem;
+                display: flex;
+                // background: none;
+                position: relative;
+                right: 40px;
+            }
+            .login-button{
+                margin: 10px;
+                width: 125%;
+                position: relative;
+                right: 0rem;
+                padding: 15px;
+                cursor: pointer;
+                background-color: #f5385d;
+                color: #fff;
+                border-radius: 1rem;
+                outline: none;
+                border: 1px solid var(--boder-color)
+            }
+            .login-title{
+                z-index: 999;
+            }
+            .form-input:focus{
+                border: 1.7px solid var(--first-color);
+            }
+        }
+}

@@ -1,0 +1,186 @@
+
+.infos{
+    .infos-book{
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 4rem;
+    
+        a{
+            text-decoration: none;
+            color: #000;
+        }
+    
+        .infosUser{
+            padding: 1.3rem 0rem;
+            .infosUser-users{
+                display: flex;
+                top: -0.3rem;
+                position: relative;
+                padding: -0rem 2rem;
+                height: 3rem;
+                border-radius: 10rem;
+                box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+                cursor: pointer;
+    
+    
+                .infosUser-icons{
+                    position: relative;
+                    top: 0.4rem;
+                    right: 0.6rem;
+    
+                    .icons-menu{
+                        padding-right: 0.3rem;
+                        font-size: 1.6rem;
+                        color: #515050;
+                    }
+    
+                    .icons-user{
+                        font-size: 1.9rem;
+                        color: #515050;
+                        position: relative;
+                        top: 0.1rem;
+    
+                    }
+                }
+    
+                p{
+                    font-size: 1.3rem;
+                    position: relative;
+                    top: -0.7rem;
+                }
+            }
+        }
+    }
+
+    .infos-roman{
+        padding: 1rem 10rem;
+        display: grid;
+        grid-template-columns: 38rem auto;
+        gap: 1rem;
+
+        .roman1{
+            background-color: #ccd4dc78;
+            height: 29rem;
+            .infos-infos{
+                text-align: center;
+                h2{
+                    text-align: center;
+                }
+
+                .auteur{
+                    position: relative;
+                    top: -3rem;
+                    font-size: 1.2rem;
+                }
+                 
+                .prix{
+                    position: relative;
+                    top: -3rem;
+                }
+                p{
+                    width: 400px;
+                    text-align: center;
+                }
+                .roman-button{
+                    text-align: center;
+                    gap: 2rem;
+                    position: relative;
+                    top: -3.2rem;
+
+                    .butt1{
+                        margin: 1rem;
+                        background-color: #a64242;
+                        color: #fff;
+                        border: none ;
+                        padding: 0.7rem 3rem;
+                        border-radius: 10rem;
+                        cursor: pointer;
+                    }
+                    .butt2{
+                        margin: 1rem;
+                        background-color: #a64242;
+                        color: #fff;
+                        border: none ;
+                        padding: 0.7rem 3rem;
+                        border-radius: 10rem;
+                        cursor: pointer;
+                    }
+    
+                    // button{
+                      
+                    // }
+                }
+            } 
+            .infos-date{
+                position: relative;
+                p{
+                    font-size: 2rem;
+                    position: relative;
+                    left: 3.5rem;
+                    top: -0.6rem;
+                }
+                h3{
+                   position: relative;
+                   top: -5rem;
+                }
+            }
+            p {
+                position: relative;
+                left: 6rem;
+                top: -3rem;
+            }
+        }
+        .roman2{
+            .rome2-img{
+                width: 19rem;
+                height: 29rem;    
+            }
+        }
+    }
+    .section-part{ 
+        background-color: #e8e1e182;
+        padding: 1px;
+        height: 30rem;
+
+        h1{
+            padding: 0rem 3rem;
+        }
+
+        .infos__populars {
+            padding: 2rem 3rem;
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            .simular__map_Popular{
+
+                 .simular__map{
+                    width: 180px;
+                    height: 300px;
+                    cursor: pointer;
+                    border-radius: .2rem;
+                 }
+            }
+        }
+        // background-color: #e8e1e182;
+        // padding: 1px;
+        // height: 25rem;
+
+        // h1{
+            // display: flex;
+            // gap: 1rem;
+        // }
+
+        // .infos__populars{
+        //     display: flex;
+        //     gap: 1rem;
+        //      padding: 0rem 3rem;
+        //     .infos__map_Popular{
+
+        //         .infos__map{
+        //             width: 180px;
+        //             height: 300px;
+        //         }
+        //     }
+        // }
+    }
+}

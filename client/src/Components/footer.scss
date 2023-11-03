@@ -1,0 +1,140 @@
+.footer{
+    padding: 1rem 4rem;
+    padding-top: 0rem;
+    display: flex;
+    justify-content: space-between;
+    .footer__element{
+        .footer__others{
+            display: flex;
+            gap: 4rem;
+            cursor: pointer;
+            font-size: 1.6rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .footer__element{
+            display: flex;
+            position: relative;
+            top: -1rem; 
+            gap: 4rem;
+            color: #aaa;
+            cursor: pointer;
+        }
+    }
+    .footer__network{
+        padding-top: 1.5rem;
+        .social__network{
+            a{
+                color: #000;
+                padding-right: 40px;
+                text-decoration: none;
+                font-size: 1.6rem;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+        .network__date{
+            color: #aaa;
+        }
+    }
+}
+@media screen and (max-width: 1150px){
+    .footer{
+        padding: 1rem 4rem;
+        padding-top: 28rem;
+        .footer__element{
+            .footer__others{
+                display: flex;
+                gap: 2rem;
+                cursor: pointer;
+                font-size: 1.6rem;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .footer__element{
+                // display: flex;
+                position: relative;
+                top: -1rem; 
+                gap: 2rem;
+                // color: #aaa;
+                // cursor: pointer;
+            }
+        }
+        .footer__network{
+            padding-top: 1.5rem;
+            .social__network{
+                a{
+                    // color: #000;
+                    padding-right: 30px;
+                    // text-decoration: none;
+                    // font-size: 1.6rem;
+                    // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+            .network__date{
+                // color: #aaa;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 783px ){
+    .footer{
+        padding: 1rem 4rem;
+        padding-top: 23rem;
+        .footer__element{
+            .footer__others{
+                display: flex;
+                gap: 1rem;
+                cursor: pointer;
+                font-size: 1.3rem;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .footer__element{
+                // display: flex;
+                position: relative;
+                top: -1rem; 
+                gap: 1rem;
+                // color: #aaa;
+                // cursor: pointer;
+            }
+        }
+        .footer__network{
+            padding-top: 1.5rem;
+            .social__network{
+                a{
+                    // color: #000;
+                    padding-right: 8px;
+                    // text-decoration: none;
+                    font-size: 1.3rem;
+                    // font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                }
+            }
+            .network__date{
+                // color: #aaa;
+            }
+        }
+    }
+}
+@media screen and (max-width: 555px ){
+    .footer{
+        padding: 1rem 3rem;
+        .footer__element{
+            .footer__others{
+                gap: .7rem;
+                cursor: pointer;
+                font-size: 1.1rem;
+            }
+            .footer__element{
+                position: relative;
+                gap: .7rem;
+            }
+        }
+        .footer__network{
+            padding-top: 1rem;
+            .social__network{
+                a{
+                    padding-right: 8px;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+    }
+}

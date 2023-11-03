@@ -1,0 +1,188 @@
+@import '../../../mixiens.scss';
+
+:root{
+    --first-color:#1A73E8;
+    --input-color:#80868B;
+    --boder-color:#DADCE0;
+    --premier--:#127d40ea;
+}
+body{
+    // background-color: #f3f4fb;
+}
+.loginA{
+    flex-direction: column;
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    .login-title{
+        h1{
+            font-size: 3rem;
+            @include sm{
+                font-size: 2rem;
+            }
+        }
+    }
+    form{
+        .div_form{
+            width: 285px ;
+            height: 40px;
+            background:transparent ;
+            margin: 10px;
+            border: 1.2px solid #000;
+            border-radius: 5px;
+            @include sm{
+                width: 250px;
+        }
+        
+            .form_icons{
+                position: relative;
+                font-size: 1.2rem;
+                left: 12px;
+                top: 9px; 
+                color: var(--input-color);    
+            }
+            .form_input{
+                position: relative;
+                top: 4px;
+                left: 18px;
+                width: 15rem;
+                height: 27px;
+                outline: none;
+                border:none;
+                // background-color: #f3f4fb;
+
+                @include sm{
+                   left: 1.4rem;
+                   top: .2rem;
+                   width: 11.5rem;
+                }
+            }
+        }
+        .login_btn{
+            position: relative;
+            left: .5rem;
+            top: .5rem;
+            padding: .8rem 6.6rem;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            background-color: #127d40ea;
+            color: #fff;
+            text-decoration: none;
+            @include sm {
+                // width: 16rem;
+                padding: .8rem 5.3rem;
+            }
+        }
+    }
+    .box{
+        .box1{
+            position: absolute;
+            background-color: var(--premier--);
+            width: 180px;
+            height: 300px; 
+            border-radius: 100% 0% 60% 40% / 32% 60% 40% 68% ;
+            // transform: rotate(140deg);
+            // border-radius: 20px;
+            top: -3rem;
+            left: -4rem;
+            // @include sm{
+            //     top: -4rem;
+            //     left: -6rem;
+            //     transform: rotate(13deg);
+            // }
+            // @include sm1{
+            //     top: -13rem;
+            // }
+            // @include sm2{
+            //     top: -8rem;
+            // }
+           
+        }
+        .box2{
+            position: absolute;
+            background-color: var(--premier--);
+            width: 180px;
+            height: 300px; 
+            transform: rotate(140deg);
+            border-radius: 12px ;
+            top: 13rem;
+            right: 5rem;
+            @include sm{
+                top: 18rem;
+                left: -6rem;
+                transform: rotate(150deg);
+                width: 100px;
+                height: 130px;
+            }
+            @include sm1{
+                top: 17rem;
+                width: 200px;
+                height: 80px;
+                right: -1rem;
+            }
+            @include sm2{
+               right: 6rem;
+               width: 120px;
+               height: 240px;
+               top: 10rem;
+            }
+        }
+        .box3{
+            position: absolute;
+            background-color:var(--premier--);
+            width: 300px;
+            height: 250px;
+            top: -10rem;
+            left: 36rem;
+            transform: rotate(300deg);
+            border-radius: 10px ;
+            z-index: -999999;
+            @include sm{
+                left: 11rem;
+                top: -14rem;
+                transform: rotate(130deg);
+            }
+            @include sm1{
+                top: -13rem;
+            }
+            @include sm2{
+                right: 5rem;
+                width: 120px;
+                height: 240px;
+                top: 11rem;
+            }
+        }
+        .box4{
+            position: absolute;
+            background-color: var(--premier--);
+            width: 200px;
+            height: 170px;
+            top: 22rem;
+            left: 4rem; 
+            transform: rotate(140deg);
+            border-radius: 7px ;
+            @include sm{
+                display: none;
+            }
+            @include sm1{
+                top: 16rem;
+                left: -5rem;
+                width: 180px;
+                height: 120px;
+            }
+            @include sm2{
+                width: 150px;
+                height: 150px;
+                top: 16rem;
+                left: 12rem;
+            }
+            @include sm2{
+                left: -3rem;
+            }
+        }
+    }
+}
